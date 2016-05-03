@@ -50,4 +50,4 @@ get_image = (body, selector)->
 
 get_text = (body, selector)->
   $ = cheerio.load(body)
-  he.decode $(selector).first().text()
+  $(selector).first().text().replace(/<(?:.|\n)*?>/gm, '')
