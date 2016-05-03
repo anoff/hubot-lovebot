@@ -12,8 +12,7 @@ describe 'lovebot', ->
 
     require('../src/lovebot')(@robot)
 
-  it 'registers a respond listener', ->
+  it 'registers all respond listeners', ->
     expect(@robot.respond).to.have.been.calledWith(/love me/)
-
-  it 'registers a hear listener', ->
-    expect(@robot.hear).to.have.been.calledWith(/orly/)
+    expect(@robot.respond).to.have.been.calledWith(/keep up the love ([0-9]+) ?([0-9]*)/)
+    expect(@robot.respond).to.have.been.calledWith(/stop the love/)

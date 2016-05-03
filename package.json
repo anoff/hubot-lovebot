@@ -1,7 +1,7 @@
 {
   "name": "hubot-lovebot",
   "description": "post thecodinglove.com images randomly",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "anoff <offispam@gmail.com>",
   "license": "MIT",
   "keywords": "hubot, hubot-scripts, codinglove, image, timer",

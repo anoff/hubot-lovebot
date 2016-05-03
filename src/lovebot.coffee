@@ -1,5 +1,5 @@
 # Description
-#   post thecodinglove.com images randomly
+#   randomly post thecodinglove.com images
 #
 # Commands:
 #   hubot love me - return random cdl image
